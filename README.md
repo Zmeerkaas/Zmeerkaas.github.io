@@ -128,6 +128,21 @@
       margin: 30px 0;
       color: var(--muted);
     }
+    @media (max-width: 760px) {
+      .nav {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+      }
+
+      .menu {
+        flex-wrap: wrap;
+        gap: 8px;
+        padding-left: 0;
+        margin: 0;
+      }
+    }
+
   </style>
 </head>
 
@@ -288,10 +303,12 @@
       Spoti Guesser is a student project. If you enjoy it, consider supporting development.
     </p>
 
-    <!-- vervang link -->
-    <a href="https://www.paypal.com/paypalme/JSmeerkaas" target="_blank" class="btn">
-      Donate via PayPal
-    </a>
+<a href="https://www.paypal.com/paypalme/JSmeerkaas"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="btn">
+  Donate via PayPal
+</a>
   </div>
 </section>
 
