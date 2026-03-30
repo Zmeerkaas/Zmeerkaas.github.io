@@ -196,6 +196,15 @@
   </p>
 </section>
 
+<section id="download"> 
+  <h2>Download Now</h2> 
+  <p> Ready to start your next music game night? Download Spoti Guesser on your device and begin creating your own QR music cards in minutes. </p> 
+  <div class="download-actions"> 
+    <a class="btn btn-android" href="https://play.google.com/store/apps/details?id=com.spotiguesser.app" target="_blank" rel="noopener noreferrer"> Download for Android </a> 
+    <a class="btn btn-ios" href="https://apps.apple.com" target="_blank" rel="noopener noreferrer"> Download for iOS </a> </div> 
+</section> 
+<style> .download-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 12px; } .btn-android { background: #1DB954; } .btn-ios { background: #111111; } .btn-android:hover { background: #169347; } .btn-ios:hover { background: #000000; } </style>
+
 <section id="how">
   <h2>How it Works</h2>
   <ol class="steps">
