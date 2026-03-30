@@ -1,5 +1,3 @@
-# Zmeerkaas.github.io
-Here you can find all the basics of Spoti Guesser, need to contact us or want to know how the app works, this is the place.
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,7 +36,7 @@ Here you can find all the basics of Spoti Guesser, need to contact us or want to
 
   <div class="box">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:support@yourdomain.com">support@yourdomain.com</a></p>
+    <p>Email: <a href="mailto:BWBBstudio@gmail.com">BWBBstudio@gmail.com</a></p>
     <p>We usually respond within 24–48 hours.</p>
   </div>
 
