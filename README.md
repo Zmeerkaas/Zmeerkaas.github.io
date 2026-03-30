@@ -35,8 +35,16 @@
       scroll-behavior: smooth;
     }
 
-    a { color: var(--brand-dark); text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    a {
+      color: var(--brand-dark);
+      text-decoration: none;
+      transition: opacity 0.2s ease;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      opacity: 0.8;
+    }
 
     .container {
       width: min(var(--maxw), 92vw);
@@ -58,6 +66,7 @@
       justify-content: space-between;
       gap: 16px;
       min-height: 68px;
+      padding: 0 12px;
     }
 
     .brand {
@@ -80,6 +89,7 @@
       font-weight: 600;
       font-size: 0.94rem;
       color: var(--text);
+      border: 1px solid transparent;
     }
 
     .menu a:hover {
@@ -87,61 +97,67 @@
       border: 1px solid var(--line);
     }
 
-    .hero { padding: 60px 0 20px; }
+    .hero {
+      padding: 64px 0 28px;
+    }
 
     .hero-card {
       background: var(--surface);
       border: 1px solid var(--line);
       border-radius: var(--radius);
       box-shadow: var(--shadow);
-      padding: 28px;
+      padding: 30px;
     }
 
     .kicker {
+      display: inline-block;
       background: #eaf8f0;
       color: #116437;
+      border: 1px solid #c9ebd7;
       padding: 4px 10px;
       border-radius: 999px;
-      font-size: 0.75rem;
+      font-size: 0.78rem;
       font-weight: 700;
+      text-transform: uppercase;
     }
-
-    h1 { margin: 10px 0; }
 
     main { padding-bottom: 40px; }
 
     section {
-      margin-top: 20px;
+      margin-top: 22px;
       background: var(--surface);
       border: 1px solid var(--line);
       border-radius: var(--radius);
       box-shadow: var(--shadow);
-      padding: 22px;
+      padding: 24px;
     }
 
-    .faq-list { display: grid; gap: 10px; }
+    .faq-list { display: grid; gap: 12px; }
 
     details {
       border: 1px solid var(--line);
       border-radius: 10px;
-      padding: 10px;
+      padding: 12px;
       background: #fbfdfb;
     }
 
-    summary { font-weight: 700; cursor: pointer; }
+    summary {
+      font-weight: 700;
+      cursor: pointer;
+    }
 
     .contact-box {
-      padding: 12px;
+      padding: 14px;
       background: #f5fbf7;
       border: 1px solid #d6ecde;
       border-radius: 10px;
     }
 
     footer {
-      margin-top: 30px;
+      margin-top: 28px;
       border-top: 1px solid var(--line);
-      padding: 20px 0;
-      font-size: 0.9rem;
+      padding: 22px 0;
+      font-size: 0.94rem;
       color: var(--muted);
     }
 
@@ -183,31 +199,21 @@
   <p>Spoti Guesser is a music-based game connected to Spotify.</p>
 </section>
 
-<section id="support">
-  <h2>Support</h2>
-  <p>Check the FAQ below or try reconnecting Spotify.</p>
-</section>
-
 <section id="faq">
   <h2>FAQ</h2>
   <div class="faq-list">
     <details>
       <summary>Playback not working?</summary>
-      <p>Reconnect Spotify and check internet.</p>
+      <p>Reconnect Spotify and check your internet.</p>
     </details>
   </div>
-</section>
-
-<section id="feedback">
-  <h2>Feedback</h2>
-  <p>Send us your ideas via email.</p>
 </section>
 
 <section id="contact">
   <h2>Contact</h2>
   <div class="contact-box">
     <strong>Email:</strong>
-    <a href="mailto:support@yourapp.com">support@yourapp.com</a>
+    <a href="mailto:support@spotiguess.com">support@spotiguess.com</a>
   </div>
 </section>
 
