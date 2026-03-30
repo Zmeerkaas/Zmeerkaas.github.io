@@ -197,78 +197,78 @@
   <div class="faq-list">
 
     <details>
-      <summary>Wat is Spoti Guesser?</summary>
-      <p>Spoti Guesser is een muziekkaartspel-app waarbij je QR-kaarten scant en spelers artiest, titel en jaartal laten raden.</p>
+      <summary>What is Spoti Guesser?</summary>
+      <p>Spoti Guesser is a music card game app where you scan QR cards and players guess the artist, title, and year.</p>
     </details>
 
     <details>
-      <summary>Heb ik Spotify nodig?</summary>
-      <p>Nee, Spotify is optioneel. Voor functies zoals directe playback en sommige playlists is Spotify wel nodig.</p>
+      <summary>Do I need Spotify?</summary>
+      <p>No, Spotify is optional. However, for features like direct playback and some playlists, Spotify is required.</p>
     </details>
 
     <details>
-      <summary>Kan ik zonder Spotify spelen?</summary>
-      <p>Ja, je kunt in gastmodus spelen. Sommige geavanceerde functies zijn dan beperkt.</p>
+      <summary>Can I play without Spotify?</summary>
+      <p>Yes, you can play in guest mode. Some advanced features will be limited.</p>
     </details>
 
     <details>
-      <summary>Hoe start ik een spel?</summary>
-      <p>Tik op Start Game, scan een kaart en laat spelers raden. Gebruik de achterkant van de kaart om antwoorden te controleren.</p>
+      <summary>How do I start a game?</summary>
+      <p>Tap Start Game, scan a card, and let players guess. Use the back of the card to verify answers.</p>
     </details>
 
     <details>
-      <summary>Hoe maak ik QR-kaarten?</summary>
-      <p>Ga naar Generate QR Codes, plak een Spotify-link (playlist, album of track) en exporteer je kaarten als PDF.</p>
+      <summary>How do I create QR cards?</summary>
+      <p>Go to Generate QR Codes, paste a Spotify link (playlist, album, or track), and export your cards as a PDF.</p>
     </details>
 
     <details>
-      <summary>Welke Spotify-links werken?</summary>
-      <p>Links naar playlists, albums en losse tracks worden ondersteund.</p>
+      <summary>Which Spotify links are supported?</summary>
+      <p>Links to playlists, albums, and individual tracks are supported.</p>
     </details>
 
     <details>
-      <summary>Kan ik private playlists gebruiken?</summary>
-      <p>Ja, maar alleen als je met Spotify bent ingelogd en toegang hebt tot die private playlist.</p>
+      <summary>Can I use private playlists?</summary>
+      <p>Yes, but only if you are logged into Spotify and have access to that private playlist.</p>
     </details>
 
     <details>
-      <summary>Waarom vraagt de app cameratoegang?</summary>
-      <p>De camera is nodig om QR-codes op de spelkaarten te scannen.</p>
+      <summary>Why does the app request camera access?</summary>
+      <p>The camera is required to scan QR codes on the game cards.</p>
     </details>
 
     <details>
-      <summary>De QR-code scant niet, wat nu?</summary>
-      <p>Zorg voor voldoende licht, houd je camera stil, en controleer of de print scherp en niet beschadigd is.</p>
+      <summary>The QR code doesn’t scan, what should I do?</summary>
+      <p>Make sure there is enough light, hold your camera steady, and check that the print is sharp and not damaged.</p>
     </details>
 
     <details>
-      <summary>Playback werkt niet, wat kan ik doen?</summary>
-      <p>Controleer je internetverbinding, log opnieuw in op Spotify en probeer de scan opnieuw.</p>
+      <summary>Playback is not working, what can I do?</summary>
+      <p>Check your internet connection, log back into Spotify, and try scanning again.</p>
     </details>
 
     <details>
-      <summary>Kan ik kaarten printen?</summary>
-      <p>Ja, je kunt kaarten exporteren en printen op papier of karton voor fysieke spelavonden.</p>
+      <summary>Can I print cards?</summary>
+      <p>Yes, you can export cards and print them on paper or cardstock for physical game nights.</p>
     </details>
 
     <details>
-      <summary>Waarom wijken kleuren soms af bij printen?</summary>
-      <p>Kleuren kunnen verschillen door scherminstellingen, printerprofielen, papier en inkt. Test eerst met een proefpagina.</p>
+      <summary>Why do colors sometimes look different when printed?</summary>
+      <p>Colors may vary due to screen settings, printer profiles, paper, and ink. Always test with a sample print first.</p>
     </details>
 
     <details>
-      <summary>Welke talen ondersteunt de app?</summary>
-      <p>De app ondersteunt meerdere talen, waaronder Nederlands en Engels.</p>
+      <summary>Which languages does the app support?</summary>
+      <p>The app supports multiple languages, including Dutch and English.</p>
     </details>
 
     <details>
-      <summary>Hoe zit het met privacy?</summary>
-      <p>Privacy-informatie vind je in de app onder Privacy Policy in de instellingen.</p>
+      <summary>What about privacy?</summary>
+      <p>Privacy information can be found in the app under Privacy Policy in the settings.</p>
     </details>
 
     <details>
-      <summary>Hoe neem ik contact op met support?</summary>
-      <p>Voor vragen, feedback of bugs kun je mailen naar BWBBstudio@gmail.com.</p>
+      <summary>How do I contact support?</summary>
+      <p>For questions, feedback, or bugs, you can email BWBBstudio@gmail.com.</p>
     </details>
 
   </div>
