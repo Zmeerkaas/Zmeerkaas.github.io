@@ -162,11 +162,19 @@
 <section id="about">
   <h2>About the App</h2>
   <p>
-    Spoti Guesser is a party game where you generate QR-code cards from Spotify songs and use them to play a real-life music guessing game.
-  </p>
+  Spoti Guesser is a social music card game app built for people who love discovering songs, testing their music memory, and creating memorable game nights with friends and family. The idea is simple but powerful: turn Spotify music into playable QR cards, scan a card, start the track, and let everyone guess the song title, artist, and release year. It combines the energy of a party game with the personal touch of your own playlists, so every round feels unique to your group.
+  </p> 
   <p>
-    It’s inspired by games like Hitster, but lets you fully customize your own deck using your favorite playlists.
-  </p>
+  What makes Spoti Guesser special is how flexible it is. You can use it as a quick casual game in the living room, as a competitive challenge at parties, or as a custom trivia format for birthdays and events. If you connect Spotify, you unlock richer playback features and support for additional playlist scenarios. If you prefer not to connect, you can still enjoy core gameplay in guest-style flows. This means the app is welcoming to both dedicated Spotify users and players who just want a fun and easy game experience.
+  </p> 
+  <p>
+  The app is designed around a full play loop: generate cards from a Spotify playlist, album, or track, export and print your cards, scan during gameplay, and verify answers with card back information. You can create a polished set of cards for repeated use, making Spoti Guesser feel like a real tabletop game with the convenience of a mobile app. Whether your group loves nostalgic classics, pop hits, indie gems, or themed playlists, the game adapts to your music taste instead of forcing a fixed catalog.
+  </p> 
+  <p>
+  Spoti Guesser is also built with accessibility and usability in mind. The app supports multiple languages and is focused on straightforward navigation, clear actions, and quick setup so you can spend less time configuring and more time playing. From first launch to first scan, the goal is to keep everything intuitive: connect if you want, generate if you need, and start the game in seconds.
+  </p> 
+  <p>
+    At its heart, Spoti Guesser is a passion project created by two students who wanted to bring people together through music, competition, and shared memories. It is made for laughter, debate, surprise discoveries, and those “I can’t believe you guessed that” moments. If your ideal game night includes great songs and friendly rivalry, Spoti Guesser was made for you.</p>
   <p>
     Built as a passion project by two students:
     <br />Joris (development) & Tim (design).
@@ -185,19 +193,84 @@
 
 <section id="faq">
   <h2>FAQ</h2>
+
   <div class="faq-list">
+
     <details>
-      <summary>Do I need Spotify?</summary>
-      <p>Spotify is optional, but required for playback features.</p>
+      <summary>Wat is Spoti Guesser?</summary>
+      <p>Spoti Guesser is een muziekkaartspel-app waarbij je QR-kaarten scant en spelers artiest, titel en jaartal laten raden.</p>
     </details>
+
     <details>
-      <summary>Can I play without Spotify?</summary>
-      <p>Yes, you can use guest mode, but with fewer features.</p>
+      <summary>Heb ik Spotify nodig?</summary>
+      <p>Nee, Spotify is optioneel. Voor functies zoals directe playback en sommige playlists is Spotify wel nodig.</p>
     </details>
+
     <details>
-      <summary>Playback not working?</summary>
-      <p>Reconnect Spotify and check your internet connection.</p>
+      <summary>Kan ik zonder Spotify spelen?</summary>
+      <p>Ja, je kunt in gastmodus spelen. Sommige geavanceerde functies zijn dan beperkt.</p>
     </details>
+
+    <details>
+      <summary>Hoe start ik een spel?</summary>
+      <p>Tik op Start Game, scan een kaart en laat spelers raden. Gebruik de achterkant van de kaart om antwoorden te controleren.</p>
+    </details>
+
+    <details>
+      <summary>Hoe maak ik QR-kaarten?</summary>
+      <p>Ga naar Generate QR Codes, plak een Spotify-link (playlist, album of track) en exporteer je kaarten als PDF.</p>
+    </details>
+
+    <details>
+      <summary>Welke Spotify-links werken?</summary>
+      <p>Links naar playlists, albums en losse tracks worden ondersteund.</p>
+    </details>
+
+    <details>
+      <summary>Kan ik private playlists gebruiken?</summary>
+      <p>Ja, maar alleen als je met Spotify bent ingelogd en toegang hebt tot die private playlist.</p>
+    </details>
+
+    <details>
+      <summary>Waarom vraagt de app cameratoegang?</summary>
+      <p>De camera is nodig om QR-codes op de spelkaarten te scannen.</p>
+    </details>
+
+    <details>
+      <summary>De QR-code scant niet, wat nu?</summary>
+      <p>Zorg voor voldoende licht, houd je camera stil, en controleer of de print scherp en niet beschadigd is.</p>
+    </details>
+
+    <details>
+      <summary>Playback werkt niet, wat kan ik doen?</summary>
+      <p>Controleer je internetverbinding, log opnieuw in op Spotify en probeer de scan opnieuw.</p>
+    </details>
+
+    <details>
+      <summary>Kan ik kaarten printen?</summary>
+      <p>Ja, je kunt kaarten exporteren en printen op papier of karton voor fysieke spelavonden.</p>
+    </details>
+
+    <details>
+      <summary>Waarom wijken kleuren soms af bij printen?</summary>
+      <p>Kleuren kunnen verschillen door scherminstellingen, printerprofielen, papier en inkt. Test eerst met een proefpagina.</p>
+    </details>
+
+    <details>
+      <summary>Welke talen ondersteunt de app?</summary>
+      <p>De app ondersteunt meerdere talen, waaronder Nederlands en Engels.</p>
+    </details>
+
+    <details>
+      <summary>Hoe zit het met privacy?</summary>
+      <p>Privacy-informatie vind je in de app onder Privacy Policy in de instellingen.</p>
+    </details>
+
+    <details>
+      <summary>Hoe neem ik contact op met support?</summary>
+      <p>Voor vragen, feedback of bugs kun je mailen naar BWBBstudio@gmail.com.</p>
+    </details>
+
   </div>
 </section>
 
@@ -216,7 +289,7 @@
     </p>
 
     <!-- vervang link -->
-    <a href="https://paypal.me/yourlink" target="_blank" class="btn">
+    <a href="https://www.paypal.com/paypalme/JSmeerkaas" target="_blank" class="btn">
       Donate via PayPal
     </a>
   </div>
@@ -224,6 +297,9 @@
 
 <section id="contact">
   <h2>Contact</h2>
+  <p>
+    You can contact us with e-mail, we normally respond within 24-28 hours.
+  </p>
   <p>Email: <a href="mailto:BWBBstudio@gmail.com">BWBBstudio@gmail.com</a></p>
 </section>
 
