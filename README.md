@@ -25,16 +25,36 @@
   }
 
   *{box-sizing:border-box;}
-  html{scroll-behavior:smooth;}
+  html{
+    scroll-behavior:smooth;
+    background:var(--paper);
+  }
+
+  html, body{
+    width:100%;
+    margin:0;
+    overflow-x:hidden;
+  }
 
   body{
-    margin:0;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
     background:var(--paper);
     color:var(--ink);
     font-family:'Inter', Arial, sans-serif;
     font-size:16px;
     line-height:1.55;
     -webkit-font-smoothing:antialiased;
+  }
+
+  main{
+    flex:1 0 auto;
+    width:100%;
+  }
+
+  header, footer, section{
+    width:100%;
   }
 
   h1,h2,h3,.brand{
@@ -230,6 +250,30 @@
   }
   .steps li span{ padding-top:4px; }
 
+  /* support callout */
+  .support-card{
+    display:flex;
+    align-items:flex-start;
+    gap:18px;
+    background:var(--tan);
+    border-left:4px solid var(--green-dark);
+    border-radius:var(--radius);
+    padding:22px 24px;
+  }
+  .support-card .glyph{
+    flex:none;
+    width:38px; height:38px;
+    border-radius:50%;
+    background:var(--ink);
+    color:var(--paper);
+    font-family:'Space Grotesk', Arial, sans-serif;
+    font-weight:600;
+    display:flex; align-items:center; justify-content:center;
+    font-size:1.1rem;
+  }
+  .support-card p{ margin:0; color:var(--ink); }
+  .support-card p + p{ margin-top:6px; }
+
   /* faq */
   .faq-list{ border-top:1px solid var(--line); }
   .faq-list details{
@@ -314,7 +358,6 @@
       <li><a href="#about">About</a></li>
       <li><a href="#how">How it works</a></li>
       <li><a href="#faq">FAQ</a></li>
-      <li><a href="#support">Support</a></li>
       <li><a href="#donate">Support us</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -463,8 +506,15 @@
 
   <section id="support">
     <div class="wrap">
-      <h2>Support</h2>
-      <p class="section-sub" style="margin-bottom:0;">Having issues? Try reconnecting Spotify, updating the app, or restarting your device.</p>
+      <h2>Need help?</h2>
+      <p class="section-sub">A few quick fixes before you reach out.</p>
+      <div class="support-card">
+        <span class="glyph" aria-hidden="true">?</span>
+        <div>
+          <p>Having issues? Try reconnecting Spotify, updating the app, or restarting your device.</p>
+          <p>Still stuck? Reach out via the contact details below and we'll help you out.</p>
+        </div>
+      </div>
     </div>
   </section>
 
